@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Viagem+</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="voo.html">Voo</a>
+            <a href="hoteis.html">Hotéis</a>
+            <a href="pacotes.html">Pacotes</a>
+            <a href="passeios.html">Passeios</a>
+        </nav>
+    </header>
+    <section>
+            <h2>Passeios e Experiências Locais</h2>
+            <p>Garanta seus ingressos e passeios com antecedência e evite filas!</p>
+        </section>
+
+       
+        <section>
+            <h3>Categorias de Atividades</h3>
+            <ul>
+                <li>Ecoturismo e Aventura</li>
+                <li>Tours Históricos e Culturais</li>
+                <li>Passeios de Barco e Mergulho</li>
+                <li>Gastronomia e Degustação de Vinhos</li>
+                <li>Ingressos para Parques Temáticos</li>
+            </ul>
+        </section>
+
+         
+
+        <section>
+            <h2>Passeios Mais Populares</h2>
+
+            <article>
+                <img src="https://images.unsplash.com/photo-1516483638261-f4dbaf036963?w=400" alt="Passeio de barco no mar" width="400">
+                <h3>Passeio de Escuna pelas Ilhas Paradisíacas</h3>
+                <p><strong>Destino:</strong> Angra dos Reis, RJ</p>
+                <p><strong>Duração:</strong> 5 horas</p>
+                <p><strong>Inclui:</strong> Guia turístico, frutas da estação e equipamentos de snorkel.</p>
+                <p>Valor por pessoa: <strong>R$ 130,00</strong></p>
+                <a href="#">Comprar Ingresso</a>
+            </article>
+
+            <br>
+
+            <article>
+                <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?w=400" alt="Ônibus turístico panorâmico" width="400">
+                <h3>City Tour Histórico com Guia Credenciado</h3>
+                <p><strong>Destino:</strong> Salvador, BA</p>
+                <p><strong>Duração:</strong> 4 horas</p>
+                <p><strong>Inclui:</strong> Transporte executivo ida/volta no hotel e entradas nos museus.</p>
+                <p>Valor por pessoa: <strong>R$ 95,00</strong></p>
+                <a href="#">Comprar Ingresso</a>
+            </article>
+        </section>
+
+        <hr>
+
+     
+        <section>
+            <h2>Dúvidas ou Ingressos Especiais?</h2>
+            <form action="#" method="POST">
+                <p>
+                    <label for="nome-passeio">Seu Nome:</label><br>
+                    <input type="text" id="nome-passeio" name="nome" placeholder="Digite seu nome" required>
+                </p>
+
+                <p>
+                    <label for="passeio-interesse">Qual atração você procura?</label><br>
+                    <input type="text" id="passeio-interesse" name="passeio_interesse" placeholder="Ex: Ingressos Disney, Mergulho em Bonito..." required>
+                </p>
+
+                <p>
+                    <label for="quantidade">Quantidade de pessoas:</label><br>
+                    <input type="number" id="quantidade" name="quantidade" min="1" value="1">
+                </p>
+
+                <button type="submit">Consultar Disponibilidade</button>
+            </form>
+        </section>
+
+</body>
+</html>

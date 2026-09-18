@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Viaje +</h1>
+        <nav>
+            <a href="index.html">Início</a> | 
+            <a href="voo.html">Voos</a> | 
+            <a href="hoteis.html">Hotéis</a> | 
+            <a href="pacotes.html">Pacotes</a> | 
+            <a href="passeios.html">Passeios</a>
+        </nav>
+    </header>
+
+        <section>
+            <h2>Pesquisar Passagens Aéreas</h2>
+            <p>Encontre as melhores tarifas para voos nacionais e internacionais.</p>
+
+           
+
+            <form action="#" method="GET">
+                <p>
+                    <input type="radio" id="ida-volta" name="tipo_passagem" value="ida_volta" checked>
+                    <label for="ida-volta">Ida e Volta</label>
+
+                    <input type="radio" id="somente-ida" name="tipo_passagem" value="somente_ida">
+                    <label for="somente-ida">Somente Ida</label>
+                </p>
+
+                <p>
+                    <label for="origem">Origem:</label><br>
+                    <input type="text" id="origem" name="origem" placeholder="Ex: São Paulo (GRU)" required>
+                </p>
+
+                <p>
+                    <label for="destino">Destino:</label><br>
+                    <input type="text" id="destino" name="destino" placeholder="Ex: Rio de Janeiro (GIG)" required>
+                </p>
+
+                <p>
+                    <label for="data-ida">Data de Ida:</label><br>
+                    <input type="date" id="data-ida" name="data_ida" required>
+                </p>
+
+                <p>
+                    <label for="data-volta">Data de Volta:</label><br>
+                    <input type="date" id="data-volta" name="data_volta">
+                </p>
+
+                <p>
+                    <label for="passageiros">Passageiros:</label><br>
+                    <select id="passageiros" name="passageiros">
+                        <option value="1">1 Adulto</option>
+                        <option value="2">2 Adultos</option>
+                        <option value="3">3 Adultos</option>
+                        <option value="familia">Família (2 Adultos + Crianças)</option>
+                    </select>
+                </p>
+
+                <p>
+                    <label for="classe">Classe do Voo:</label><br>
+                    <select id="classe" name="classe">
+                        <option value="economica">Econômica</option>
+                        <option value="executiva">Executiva</option>
+                        <option value="primeira">Primeira Classe</option>
+                    </select>
+                </p>
+
+                <button type="submit">Buscar Voos</button>
+            </form>
+        </section>
+
+        <hr>
+
+        <section>
+            <h2>Passagens em Promoção</h2>
+
+            <article>
+                <img src="https://images.unsplash.com/photo-1436491865332-7a61a109cc05?w=400" alt="Avião voando entre nuvens" width="400">
+                <h3>São Paulo &rarr; Salvador</h3>
+                <p>Ida e volta com taxas inclusas</p>
+                <p>A partir de <strong>R$ 450,00</strong></p>
+                <a href="#">Ver detalhes do voo</a>
+            </article>
+
+            <article>
+                <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?w=400" alt="Cidade de Dubai ao entardecer" width="400">
+                <h3>Rio de Janeiro &rarr; Lisboa</h3>
+                <p>Voo direto com bagagem despachada</p>
+                <p>A partir de <strong>R$ 3.200,00</strong></p>
+                <a href="#">Ver detalhes do voo</a>
+            </article>
+        </section>
+
+    <footer>
+        <p>&copy; 2026 Viaje +. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>

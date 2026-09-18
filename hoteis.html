@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Viagem+</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+            <a href="voo.html">Voo</a>
+            <a href="hoteis.html">Hotéis</a>
+            <a href="pacotes.html">Pacotes</a>
+            <a href="passeios.html">Passeios</a>
+        </nav>
+    </header>
+    <section>
+            <h2>Encontre o Hotel Perfeito</h2>
+            <p>Escolha entre milhares de resorts, pousadas e hotéis ao redor do mundo.</p>
+
+            <form action="#" method="GET">
+                <p>
+                    <label for="destino-hotel">Destino ou Nome do Hotel:</label><br>
+                    <input type="text" id="destino-hotel" name="destino" placeholder="Ex: Gramado, Florianópolis..." required>
+                </p>
+
+                <p>
+                    <label for="checkin">Data de Check-in:</label><br>
+                    <input type="date" id="checkin" name="checkin" required>
+                </p>
+
+                <p>
+                    <label for="checkout">Data de Check-out:</label><br>
+                    <input type="date" id="checkout" name="checkout" required>
+                </p>
+
+                <p>
+                    <label for="quartos">Número de Quartos:</label><br>
+                    <input type="number" id="quartos" name="quartos" min="1" value="1">
+                </p>
+
+                <p>
+                    <strong>Filtros e Comodidades:</strong><br>
+                    <input type="checkbox" id="cafe" name="comodidades" value="cafe">
+                    <label for="cafe">Café da manhã incluso</label><br>
+
+                    <input type="checkbox" id="piscina" name="comodidades" value="piscina">
+                    <label for="piscina">Piscina</label><br>
+
+                    <input type="checkbox" id="wifi" name="comodidades" value="wifi">
+                    <label for="wifi">Wi-Fi gratuito</label><br>
+
+                    <input type="checkbox" id="pet" name="comodidades" value="pet">
+                    <label for="pet">Aceita animais de estimação (Pet Friendly)</label>
+                </p>
+
+                <button type="submit">Buscar Hotéis</button>
+            </form>
+        </section>
+
+        <hr>
+
+      
+        <section>
+            <h2>Hotéis Recomendados</h2>
+
+            <article>
+                <img src="https://images.unsplash.com/photo-1566073771259-6a8506099945?w=400" alt="Resort luxuoso com piscina" width="400">
+                <h3>Resort Beira-Mar Paradiso</h3>
+                <p><strong>Localização:</strong> Porto de Galinhas, PE</p>
+                <p>Avaliação: &#9733;&#9733;&#9733;&#9733;&#9733; (5/5)</p>
+                <p>Diárias a partir de <strong>R$ 380,00</strong></p>
+                <a href="#">Reservar Agora</a>
+            </article>
+
+            <article>
+                <img src="https://images.unsplash.com/photo-1582719508461-905c673771fd?w=400" alt="Quarto aconchegante de hotel" width="400">
+                <h3>Pousada Serra & Aconchego</h3>
+                <p><strong>Localização:</strong> Campos do Jordão, SP</p>
+                <p>Avaliação: &#9733;&#9733;&#9733;&#9733;&#9734; (4/5)</p>
+                <p>Diárias a partir de <strong>R$ 290,00</strong></p>
+                <a href="#">Reservar Agora</a>
+            </article>
+        </section>
+
+        <footer>
+        <p>&copy; 2026 Viaje +. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
